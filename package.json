@@ -1,0 +1,34 @@
+{
+  "name": "alphonso-fs",
+  "version": "0.0.1",
+  "description": "File System Storage Layer for alphonso",
+  "main": "./lib/main.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhanuc/alphonso-fs.git"
+  },
+  "keywords": [
+    "npm",
+    "alphonso",
+    "filesystem",
+    "registry"
+  ],
+  "author": "Bhanu Pratap Chaudhary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhanuc/alphonso-fs/issues"
+  },
+  "homepage": "https://github.com/bhanuc/alphonso-fs",
+  "devDependencies": {
+    "mocha": "1.20.0",
+    "should": "4.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.4.0"
+  }
+}
